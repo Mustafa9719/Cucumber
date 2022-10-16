@@ -1,0 +1,289 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7858965600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verifying Adactin login with valid",
+        "description": "",
+        "id": "validate-the-login-functionality-of-adactin-hotel-application;verifying-adactin-login-with-valid;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 726528700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 673500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should navigate to the Adactin login page using url",
+            "match": {
+              "location": "TC1_LoginStep.user_should_navigate_to_the_Adactin_login_page_using_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 794480000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should login by entering \"MohamedMustafa97\", \"Mustafa97\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MohamedMustafa97\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Mustafa97\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TC1_LoginStep.user_should_login_by_entering(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59152600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify successful login with message \"Hello MohamedMustafa97!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello MohamedMustafa97!\"",
+                  "offset": 49
+                }
+              ],
+              "location": "CommonSteps.user_should_verify_successful_login_with_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6268434101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verifying Adactin login with valid by Enter Key",
+        "description": "",
+        "id": "validate-the-login-functionality-of-adactin-hotel-application;verifying-adactin-login-with-valid-by-enter-key;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 725217200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should navigate to the Adactin login page using url",
+            "match": {
+              "location": "TC1_LoginStep.user_should_navigate_to_the_Adactin_login_page_using_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252727600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should login by entering \"MohamedMustafa97\", \"Mustafa97\" by Enter Key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MohamedMustafa97\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Mustafa97\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TC1_LoginStep.user_should_login_by_entering_by_Enter_Key(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 547264401,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should verify successful login with message \"Hello MohamedMustafa97!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello MohamedMustafa97!\"",
+                  "offset": 49
+                }
+              ],
+              "location": "CommonSteps.user_should_verify_successful_login_with_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6241872300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verifying Adactin login with invalid data",
+        "description": "",
+        "id": "validate-the-login-functionality-of-adactin-hotel-application;verifying-adactin-login-with-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 719047100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should navigate to the Adactin login page using url",
+            "match": {
+              "location": "TC1_LoginStep.user_should_navigate_to_the_Adactin_login_page_using_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450559700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should login by entering \"MohamedMustafa97\", \"Mustafa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MohamedMustafa97\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Mustafa\"",
+                  "offset": 50
+                }
+              ],
+              "location": "TC1_LoginStep.user_should_login_by_entering(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46097501,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should verify unsuccessful login with message contains \"Invalid Login details\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Login details\"",
+                  "offset": 60
+                }
+              ],
+              "location": "TC1_LoginStep.user_should_verify_unsuccessful_login_with_message_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login functionality of Adactin Hotel Application",
+    "description": "",
+    "id": "validate-the-login-functionality-of-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/TC1_Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
